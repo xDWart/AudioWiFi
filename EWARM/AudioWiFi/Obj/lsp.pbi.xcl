@@ -1,66 +1,66 @@
-"D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\libspeex\lsp.c"
+"C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\libspeex\lsp.c"
 -std=c99
 -ferror-limit=100
 -I
-D:\STM32\AudioWiFi\EWARM/../Inc
+C:\AudioWiFi\EWARM/../Inc
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
+C:\AudioWiFi\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+C:\AudioWiFi\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/include
+C:\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/include
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/libspeex
+C:\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/libspeex
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32
+C:\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32/include
+C:\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32/include
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32/libspeex
+C:\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32/libspeex
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32/libspeex/iar
+C:\AudioWiFi\EWARM/../Drivers/STM32F10x_Speex_Lib/STM32/libspeex/iar
 -I
-D:\STM32\AudioWiFi\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Core/Inc
+C:\AudioWiFi\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Core/Inc
 -I
-D:\STM32\AudioWiFi\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
+C:\AudioWiFi\EWARM/../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/CMSIS/Include
+C:\AudioWiFi\EWARM/../Drivers/CMSIS/Include
 -I
-D:\STM32\AudioWiFi\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+C:\AudioWiFi\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.7\arm\CMSIS\Include
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.7\arm\inc
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.7\arm\inc\c
 -I
-D:\STM32\AudioWiFi\Inc
+C:\AudioWiFi\Inc
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F1xx_HAL_Driver\Inc
+C:\AudioWiFi\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+C:\AudioWiFi\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\include
+C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\include
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\libspeex
+C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\libspeex
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32
+C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32\include
+C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32\include
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32\libspeex
+C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32\libspeex
 -I
-D:\STM32\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar
+C:\AudioWiFi\Drivers\STM32F10x_Speex_Lib\STM32\libspeex\iar
 -I
-D:\STM32\AudioWiFi\Middlewares\ST\STM32_USB_Device_Library\Core\Inc
+C:\AudioWiFi\Middlewares\ST\STM32_USB_Device_Library\Core\Inc
 -I
-D:\STM32\AudioWiFi\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc
+C:\AudioWiFi\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc
 -I
-D:\STM32\AudioWiFi\Drivers\CMSIS\Include
+C:\AudioWiFi\Drivers\CMSIS\Include
 -I
-D:\STM32\AudioWiFi\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+C:\AudioWiFi\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.7\arm\CMSIS\Include
 -DUSE_HAL_DRIVER=1
 -DSTM32F103xB=1
 -DHAVE_CONFIG_H=1
@@ -292,8 +292,8 @@ C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\CMSIS\Include
 -D__EDG_SYSV=0
 -D__EDG_ANSIC=1
 -D__EDG_CPP11_IL_EXTENSIONS_SUPPORTED=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files\IAR Systems\Embedded Workbench 7.5\arm\INC\c\DLib_Config_Full.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\INC\\c\\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.7\arm\INC\c\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.7\\arm\\INC\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V7.70.1.11437/W32 for ARM"
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )
 -D__CODE_MEMORY_LIST2__(_P1)=__CODE_MEM_HELPER2__(__code, 0 ,  _P1 )

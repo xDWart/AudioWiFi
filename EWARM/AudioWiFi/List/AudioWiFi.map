@@ -1,72 +1,72 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.70.1.11437/W32 for ARM                03/Mar/2017  17:46:53
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                08/Mar/2017  09:07:03
 # Copyright 2007-2016 IAR Systems AB.
 #
-#    Output file  =  D:\STM32\AudioWiFi\EWARM\AudioWiFi\Exe\AudioWiFi.out
-#    Map file     =  D:\STM32\AudioWiFi\EWARM\AudioWiFi\List\AudioWiFi.map
+#    Output file  =  C:\AudioWiFi\EWARM\AudioWiFi\Exe\AudioWiFi.out
+#    Map file     =  C:\AudioWiFi\EWARM\AudioWiFi\List\AudioWiFi.map
 #    Command line =  
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\bits.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\buffer.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\cb_search.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\events.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\exc_10_32_table.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\filters.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\filters_cortexM3.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\gain_table.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\gain_table_lbr.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\high_lsp_tables.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\lpc.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\lsp.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\lsp_tables_nb.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\ltp.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\ltp_cortexM3.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\main.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\modes.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\nb_celp.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\quant_lsp.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\speex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\speex_callbacks.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\speex_header.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\speexx.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\startup_stm32f103xb.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_adc.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_adc_ex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_cortex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_dma.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_flash.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_flash_ex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_gpio.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_gpio_ex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_msp.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_pcd.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_pcd_ex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_pwr.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_rcc.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_rcc_ex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_tim.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_tim_ex.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_uart.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_it.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_ll_usb.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\system_stm32f1xx.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usb_device.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_cdc.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_cdc_if.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_conf.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_core.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_ctlreq.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_desc.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_ioreq.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\vq.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\vq_cortexm3.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\wifi.o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj\window.o --redirect
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\bits.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\buffer.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\cb_search.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\events.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\exc_10_32_table.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\filters.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\filters_cortexM3.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\gain_table.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\gain_table_lbr.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\high_lsp_tables.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\lpc.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\lsp.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\lsp_tables_nb.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\ltp.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\ltp_cortexM3.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\main.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\modes.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\nb_celp.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\quant_lsp.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\speex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\speex_callbacks.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\speex_header.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\speexx.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\startup_stm32f103xb.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_adc.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_adc_ex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_cortex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_dma.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_flash.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_flash_ex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_gpio.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_gpio_ex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_msp.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_pcd.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_pcd_ex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_pwr.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_rcc.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_rcc_ex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_tim.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_tim_ex.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_hal_uart.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_it.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\stm32f1xx_ll_usb.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\system_stm32f1xx.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usb_device.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_cdc.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_cdc_if.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_conf.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_core.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_ctlreq.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_desc.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\usbd_ioreq.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\vq.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\vq_cortexm3.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\wifi.o
+#        C:\AudioWiFi\EWARM\AudioWiFi\Obj\window.o --redirect
 #        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\Exe\AudioWiFi.out --map
-#        D:\STM32\AudioWiFi\EWARM\AudioWiFi\List\AudioWiFi.map --config
-#        D:\STM32\AudioWiFi\EWARM/stm32f103xb_flash.icf --semihosting --entry
+#        C:\AudioWiFi\EWARM\AudioWiFi\Exe\AudioWiFi.out --map
+#        C:\AudioWiFi\EWARM\AudioWiFi\List\AudioWiFi.map --config
+#        C:\AudioWiFi\EWARM/stm32f103xb_flash.icf --semihosting --entry
 #        __iar_program_start --vfe
 #
 ###############################################################################
@@ -313,54 +313,54 @@ initialize by copy { rw };
     .data            inited   0x200002d0     0x2  speexx.o [1]
                             - 0x200002d2   0x2d2
 
-"P2", part 2 of 3:                        0x1c00
+"P2", part 2 of 3:                        0x1e00
   CSTACK                      0x200002d8   0x800  <Block>
     CSTACK           uninit   0x200002d8   0x800  <Block tail>
-  HEAP                        0x20000ad8  0x1400  <Block>
-    HEAP             uninit   0x20000ad8  0x1400  <Block tail>
-                            - 0x20001ed8  0x1c00
+  HEAP                        0x20000ad8  0x1600  <Block>
+    HEAP             uninit   0x20000ad8  0x1600  <Block tail>
+                            - 0x200020d8  0x1e00
 
 "P2", part 3 of 3:                        0x2428
-  .bss               zero     0x20001ed8   0xe10  speexx.o [1]
-  .bss               zero     0x20002ce8   0x420  usbd_conf.o [1]
-  .bss               zero     0x20003108   0x280  speexx.o [1]
-  .bss               zero     0x20003388   0x224  usb_device.o [1]
-  .bss               zero     0x200035ac   0x220  usbd_conf.o [1]
-  .bss               zero     0x200037cc   0x200  usbd_desc.o [1]
-  .bss               zero     0x200039cc   0x200  wifi.o [1]
+  .bss               zero     0x200020d8   0xe10  speexx.o [1]
+  .bss               zero     0x20002ee8   0x420  usbd_conf.o [1]
+  .bss               zero     0x20003308   0x280  speexx.o [1]
+  .bss               zero     0x20003588   0x224  usb_device.o [1]
+  .bss               zero     0x200037ac   0x220  usbd_conf.o [1]
+  .bss               zero     0x200039cc   0x200  usbd_desc.o [1]
   .bss               zero     0x20003bcc   0x200  wifi.o [1]
-  .bss               zero     0x20003dcc   0x1d8  dlmalloc.o [3]
-  .bss               zero     0x20003fa4   0x180  wifi.o [1]
-  .bss               zero     0x20004124    0x40  main.o [1]
-  .bss               zero     0x20004164    0x3c  main.o [1]
-  .bss               zero     0x200041a0    0x3c  main.o [1]
-  .bss               zero     0x200041dc    0x38  main.o [1]
-  .bss               zero     0x20004214    0x38  main.o [1]
-  .bss               zero     0x2000424c    0x30  main.o [1]
-  .bss               zero     0x2000427c    0x24  speexx.o [1]
-  .bss               zero     0x200042a0    0x18  dlmalloc.o [3]
-  .bss               zero     0x200042b8    0x10  events.o [1]
-  .bss               zero     0x200042c8     0xc  wifi.o [1]
-  .bss               zero     0x200042d4     0x4  speexx.o [1]
-  .bss               zero     0x200042d8     0x4  speexx.o [1]
-  .bss               zero     0x200042dc     0x4  speexx.o [1]
-  .bss               zero     0x200042e0     0x4  stm32f1xx_hal.o [1]
-  .bss               zero     0x200042e4     0x4  usbd_cdc_if.o [1]
-  .bss               zero     0x200042e8     0x4  usbd_cdc_if.o [1]
-  .bss               zero     0x200042ec     0x4  xgetmemchunk.o [3]
-  .bss               zero     0x200042f0     0x2  wifi.o [1]
-  .bss               zero     0x200042f2     0x2  wifi.o [1]
-  .bss               zero     0x200042f4     0x2  wifi.o [1]
-  .bss               zero     0x200042f6     0x1  speexx.o [1]
-  .bss               zero     0x200042f7     0x1  speexx.o [1]
-  .bss               zero     0x200042f8     0x1  speexx.o [1]
-  .bss               zero     0x200042f9     0x1  speexx.o [1]
-  .bss               zero     0x200042fa     0x1  usbd_cdc.o [1]
-  .bss               zero     0x200042fb     0x1  usbd_ctlreq.o [1]
-  .bss               zero     0x200042fc     0x1  wifi.o [1]
-  .bss               zero     0x200042fd     0x1  wifi.o [1]
-  .bss               zero     0x200042fe     0x1  wifi.o [1]
-                            - 0x200042ff  0x2427
+  .bss               zero     0x20003dcc   0x200  wifi.o [1]
+  .bss               zero     0x20003fcc   0x1d8  dlmalloc.o [3]
+  .bss               zero     0x200041a4   0x180  wifi.o [1]
+  .bss               zero     0x20004324    0x40  main.o [1]
+  .bss               zero     0x20004364    0x3c  main.o [1]
+  .bss               zero     0x200043a0    0x3c  main.o [1]
+  .bss               zero     0x200043dc    0x38  main.o [1]
+  .bss               zero     0x20004414    0x38  main.o [1]
+  .bss               zero     0x2000444c    0x30  main.o [1]
+  .bss               zero     0x2000447c    0x24  speexx.o [1]
+  .bss               zero     0x200044a0    0x18  dlmalloc.o [3]
+  .bss               zero     0x200044b8    0x10  events.o [1]
+  .bss               zero     0x200044c8     0xc  wifi.o [1]
+  .bss               zero     0x200044d4     0x4  speexx.o [1]
+  .bss               zero     0x200044d8     0x4  speexx.o [1]
+  .bss               zero     0x200044dc     0x4  speexx.o [1]
+  .bss               zero     0x200044e0     0x4  stm32f1xx_hal.o [1]
+  .bss               zero     0x200044e4     0x4  usbd_cdc_if.o [1]
+  .bss               zero     0x200044e8     0x4  usbd_cdc_if.o [1]
+  .bss               zero     0x200044ec     0x4  xgetmemchunk.o [3]
+  .bss               zero     0x200044f0     0x2  wifi.o [1]
+  .bss               zero     0x200044f2     0x2  wifi.o [1]
+  .bss               zero     0x200044f4     0x2  wifi.o [1]
+  .bss               zero     0x200044f6     0x1  speexx.o [1]
+  .bss               zero     0x200044f7     0x1  speexx.o [1]
+  .bss               zero     0x200044f8     0x1  speexx.o [1]
+  .bss               zero     0x200044f9     0x1  speexx.o [1]
+  .bss               zero     0x200044fa     0x1  usbd_cdc.o [1]
+  .bss               zero     0x200044fb     0x1  usbd_ctlreq.o [1]
+  .bss               zero     0x200044fc     0x1  wifi.o [1]
+  .bss               zero     0x200044fd     0x1  wifi.o [1]
+  .bss               zero     0x200044fe     0x1  wifi.o [1]
+                            - 0x200044ff  0x2427
 
 
 *******************************************************************************
@@ -371,7 +371,7 @@ initialize by copy { rw };
           -------     ----
 Zero (__iar_zero_init3)
     1 destination range, total size 0x2427:
-          0x20001ed8  0x2427
+          0x200020d8  0x2427
 
 Copy/lz77 (__iar_lz77_init_single3)
     1 source range, total size 0x202 (71% of destination):
@@ -387,7 +387,7 @@ Copy/lz77 (__iar_lz77_init_single3)
 
     Module                  ro code  ro data  rw data
     ------                  -------  -------  -------
-D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj: [1]
+C:\AudioWiFi\EWARM\AudioWiFi\Obj: [1]
     bits.o                      544      116
     cb_search.o               1 764
     events.o                    120                16
@@ -488,9 +488,9 @@ shb_l.a: [6]
     Total:                       68
 
     Gaps                         42        2
-    Linker created                        32    7 168
+    Linker created                        32    7 680
 -----------------------------------------------------
-    Grand Total:             55 714    4 112   17 145
+    Grand Total:             55 714    4 112   17 657
 
 
 *******************************************************************************
@@ -543,10 +543,10 @@ Del_UART_ALL_Nextoperate
                         0x0800b8df   0x10  Code  Gb  wifi.o [1]
 Del_UART_Lastoperate    0x0800b8bd   0x22  Code  Gb  wifi.o [1]
 ESP_answ                0x20000294   0x30  Data  Gb  wifi.o [1]
-Encoded_Frames          0x200042d4    0x4  Data  Gb  speexx.o [1]
+Encoded_Frames          0x200044d4    0x4  Data  Gb  speexx.o [1]
 EncodingVoice           0x0800ab7d  0x15e  Code  Gb  speexx.o [1]
 Error_Handler           0x0800a36d    0x8  Code  Gb  main.o [1]
-Events                  0x200042b8   0x10  Data  Gb  events.o [1]
+Events                  0x200044b8   0x10  Data  Gb  events.o [1]
 FS_Desc                 0x20000134   0x1c  Data  Gb  usbd_desc.o [1]
 Flt_RC                  0x0800aae1   0x3e  Code  Gb  speexx.o [1]
 Get_UART_Answer         0x0800b7b9   0x2e  Code  Gb  wifi.o [1]
@@ -654,11 +654,11 @@ HAL_UART_TxCpltCallback
 HAL_UART_TxHalfCpltCallback
                         0x0800d1df    0x2  Code  Wk  stm32f1xx_hal_uart.o [1]
 HEAP$$Base              0x20000ad8          --   Gb  - Linker created -
-HEAP$$Limit             0x20001ed8          --   Gb  - Linker created -
+HEAP$$Limit             0x200020d8          --   Gb  - Linker created -
 Handler_Led_inv         0x0800c535   0x18  Code  Gb  stm32f1xx_it.o [1]
 HardFault_Handler       0x0800c54f    0x8  Code  Gb  stm32f1xx_it.o [1]
-IN_Buffer               0x20003108  0x280  Data  Gb  speexx.o [1]
-Index_Encoding          0x200042f7    0x1  Data  Gb  speexx.o [1]
+IN_Buffer               0x20003308  0x280  Data  Gb  speexx.o [1]
+Index_Encoding          0x200044f7    0x1  Data  Gb  speexx.o [1]
 MX_ADC1_Init            0x0800a11d   0x5a  Code  Lc  main.o [1]
 MX_DMA_Init             0x0800a285   0x3c  Code  Lc  main.o [1]
 MX_GPIO_Init            0x0800a2c1   0x72  Code  Lc  main.o [1]
@@ -679,8 +679,8 @@ NVIC_SetPriorityGrouping
 PCD_EP_ISR_Handler      0x08009601  0x42a  Code  Lc  stm32f1xx_hal_pcd.o [1]
 POST_SEND_str           0x200001e4   0x78  Data  Gb  wifi.o [1]
 PendSV_Handler          0x0800c573    0x2  Code  Gb  stm32f1xx_it.o [1]
-REC_DATA                0x20001ed8  0xe10  Data  Gb  speexx.o [1]
-ReadySendData           0x200042fe    0x1  Data  Gb  wifi.o [1]
+REC_DATA                0x200020d8  0xe10  Data  Gb  speexx.o [1]
+ReadySendData           0x200044fe    0x1  Data  Gb  wifi.o [1]
 Rec_Data_ptr            0x20000004    0x4  Data  Gb  speexx.o [1]
 Region$$Table$$Base     0x0800e484          --   Gb  - Linker created -
 Region$$Table$$Limit    0x0800e4a4          --   Gb  - Linker created -
@@ -688,7 +688,7 @@ RunEvents               0x0800aa41   0x24  Code  Gb  events.o [1]
 SVC_Handler             0x0800c56f    0x2  Code  Gb  stm32f1xx_it.o [1]
 SetEvent                0x0800aa31   0x10  Code  Gb  events.o [1]
 Speex_Init              0x0800aaa9   0x38  Code  Gb  speexx.o [1]
-Start_Encoding          0x200042f6    0x1  Data  Gb  speexx.o [1]
+Start_Encoding          0x200044f6    0x1  Data  Gb  speexx.o [1]
 String_AT               0x2000025c   0x38  Data  Gb  wifi.o [1]
 SysTick_Config          0x0800868b   0x2e  Code  Lc  stm32f1xx_hal_cortex.o [1]
 SysTick_Handler         0x0800c575    0xc  Code  Gb  stm32f1xx_it.o [1]
@@ -705,21 +705,21 @@ TIM_TI1_ConfigInputStage
 TIM_TI2_ConfigInputStage
                         0x0800b105   0x2a  Code  Lc  stm32f1xx_hal_tim.o [1]
 TestEvent_Done          0x0800aa7b   0x1c  Code  Gb  events.o [1]
-UART_Answer             0x20003bcc  0x200  Data  Gb  wifi.o [1]
+UART_Answer             0x20003dcc  0x200  Data  Gb  wifi.o [1]
 UART_DMAError           0x0800c07d   0x20  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_DMATransmitCplt    0x0800c03d   0x32  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_DMATxHalfCplt      0x0800c071    0xa  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_EndTransmit_IT     0x0800c10d   0x2c  Code  Lc  stm32f1xx_hal_uart.o [1]
-UART_Receive_Data       0x200039cc  0x200  Data  Gb  wifi.o [1]
-UART_Receive_Data_Size  0x200042f4    0x2  Data  Gb  wifi.o [1]
+UART_Receive_Data       0x20003bcc  0x200  Data  Gb  wifi.o [1]
+UART_Receive_Data_Size  0x200044f4    0x2  Data  Gb  wifi.o [1]
 UART_Receive_IT         0x0800c139   0xbe  Code  Lc  stm32f1xx_hal_uart.o [1]
-UART_RxByte             0x200042fc    0x1  Data  Gb  wifi.o [1]
-UART_Sending            0x200042fd    0x1  Data  Gb  wifi.o [1]
+UART_RxByte             0x200044fc    0x1  Data  Gb  wifi.o [1]
+UART_Sending            0x200044fd    0x1  Data  Gb  wifi.o [1]
 UART_SetConfig          0x0800c1f7  0x196  Code  Lc  stm32f1xx_hal_uart.o [1]
 UART_Transmit           0x0800b7e7   0x24  Code  Gb  wifi.o [1]
 UART_Transmit_IT        0x0800c09d   0x70  Code  Lc  stm32f1xx_hal_uart.o [1]
-UART_lastoperate        0x200042c8    0xc  Data  Gb  wifi.o [1]
-UART_nextoperate        0x20003fa4  0x180  Data  Gb  wifi.o [1]
+UART_lastoperate        0x200044c8    0xc  Data  Gb  wifi.o [1]
+UART_nextoperate        0x200041a4  0x180  Data  Gb  wifi.o [1]
 UART_parser             0x0800b98d  0x190  Code  Gb  wifi.o [1]
 UART_send               0x0800b8ef   0x34  Code  Gb  wifi.o [1]
 USART3_IRQHandler       0x0800c5d9    0xa  Code  Gb  stm32f1xx_it.o [1]
@@ -747,7 +747,7 @@ USBD_CDC_RegisterInterface
 USBD_CDC_SetRxBuffer    0x0800cdc5    0xc  Code  Gb  usbd_cdc.o [1]
 USBD_CDC_SetTxBuffer    0x0800cdb3   0x12  Code  Gb  usbd_cdc.o [1]
 USBD_CDC_Setup          0x0800cc61   0x84  Code  Lc  usbd_cdc.o [1]
-USBD_CDC_Setup::ifalt   0x200042fa    0x1  Data  Lc  usbd_cdc.o [1]
+USBD_CDC_Setup::ifalt   0x200044fa    0x1  Data  Lc  usbd_cdc.o [1]
 USBD_ClrClassConfig     0x08009cf5   0x10  Code  Gb  usbd_core.o [1]
 USBD_ClrFeature         0x0800a8d1   0x34  Code  Lc  usbd_ctlreq.o [1]
 USBD_CtlContinueRx      0x0800a9f3   0x12  Code  Gb  usbd_ioreq.o [1]
@@ -806,17 +806,17 @@ USBD_RunTestMode        0x08009ccf    0x4  Code  Gb  usbd_core.o [1]
 USBD_SetAddress         0x0800a70b   0x58  Code  Lc  usbd_ctlreq.o [1]
 USBD_SetClassConfig     0x08009cd3   0x22  Code  Gb  usbd_core.o [1]
 USBD_SetConfig          0x0800a763   0xda  Code  Lc  usbd_ctlreq.o [1]
-USBD_SetConfig::cfgidx  0x200042fb    0x1  Data  Lc  usbd_ctlreq.o [1]
+USBD_SetConfig::cfgidx  0x200044fb    0x1  Data  Lc  usbd_ctlreq.o [1]
 USBD_SetFeature         0x0800a8af   0x22  Code  Lc  usbd_ctlreq.o [1]
 USBD_Start              0x08009cc5    0xa  Code  Gb  usbd_core.o [1]
 USBD_StdDevReq          0x0800a3bd   0x58  Code  Gb  usbd_ctlreq.o [1]
 USBD_StdEPReq           0x0800a461  0x15e  Code  Gb  usbd_ctlreq.o [1]
 USBD_StdItfReq          0x0800a415   0x4c  Code  Gb  usbd_ctlreq.o [1]
-USBD_StrDesc            0x200037cc  0x200  Data  Gb  usbd_desc.o [1]
+USBD_StrDesc            0x200039cc  0x200  Data  Gb  usbd_desc.o [1]
 USBD_static_free        0x08009c75    0x8  Code  Gb  usbd_conf.o [1]
 USBD_static_malloc      0x08009c59    0x4  Code  Gb  usbd_conf.o [1]
 USBD_static_malloc::mem
-                        0x200035ac  0x220  Data  Lc  usbd_conf.o [1]
+                        0x200037ac  0x220  Data  Lc  usbd_conf.o [1]
 USB_ActivateEndpoint    0x080087a5  0x340  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_CoreInit            0x0800874f    0x8  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_DeactivateEndpoint  0x08008ae5  0x1c4  Code  Gb  stm32f1xx_ll_usb.o [1]
@@ -837,12 +837,12 @@ USB_SetCurrentMode      0x08008781    0x4  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_SetDevAddress       0x0800907b   0x10  Code  Gb  stm32f1xx_ll_usb.o [1]
 USB_WritePMA            0x080090a1   0x3a  Code  Gb  stm32f1xx_ll_usb.o [1]
 UsageFault_Handler      0x0800c567    0x8  Code  Gb  stm32f1xx_it.o [1]
-UserRxBufferFS          0x200042e4    0x4  Data  Gb  usbd_cdc_if.o [1]
-UserTxBufferFS          0x200042e8    0x4  Data  Gb  usbd_cdc_if.o [1]
+UserRxBufferFS          0x200044e4    0x4  Data  Gb  usbd_cdc_if.o [1]
+UserTxBufferFS          0x200044e8    0x4  Data  Gb  usbd_cdc_if.o [1]
 VAD_COUNT               0x200002cc    0x2  Data  Gb  speexx.o [1]
 VAD_LENGTH              0x200002d0    0x2  Data  Gb  speexx.o [1]
 VAD_SENS                0x200002ce    0x2  Data  Gb  speexx.o [1]
-VAD_detect              0x200042f8    0x1  Data  Gb  speexx.o [1]
+VAD_detect              0x200044f8    0x1  Data  Gb  speexx.o [1]
 __aeabi_cdcmple         0x0800c8f9         Code  Gb  DblCmpLe.o [4]
 __aeabi_f2iz            0x0800c885         Code  Gb  FltToS32.o [4]
 __aeabi_fadd            0x0800c6e5         Code  Gb  FltAdd.o [4]
@@ -856,7 +856,7 @@ __aeabi_ui2f            0x0800c865         Code  Gb  I32ToFlt.o [4]
 __cmain                 0x0800e561         Code  Gb  cmain.o [5]
 __data_GetMemChunk      0x08007805   0x2c  Code  Gb  xgetmemchunk.o [3]
 __data_GetMemChunk::start
-                        0x200042ec    0x4  Data  Lc  xgetmemchunk.o [3]
+                        0x200044ec    0x4  Data  Lc  xgetmemchunk.o [3]
 __exit                  0x08007b25   0x14  Code  Gb  exit.o [6]
 __iar_Memset            0x08006fc5         Code  Gb  ABImemset.o [5]
 __iar_Memset_word       0x08006fcd         Code  Gb  ABImemset.o [5]
@@ -895,13 +895,13 @@ __low_level_init        0x0800e57b    0x4  Code  Gb  low_level_init.o [3]
 __vector_table          0x08000000         Data  Gb  startup_stm32f103xb.o [1]
 _call_main              0x0800e56d         Code  Gb  cmain.o [5]
 _exit                   0x0800e585         Code  Gb  cexit.o [5]
-_gm_                    0x20003dcc  0x1d8  Data  Lc  dlmalloc.o [3]
+_gm_                    0x20003fcc  0x1d8  Data  Lc  dlmalloc.o [3]
 _main                   0x0800e577         Code  Gb  cmain.o [5]
 _spx_autocorr           0x0800515f   0x84  Code  Gb  lpc.o [1]
 _spx_lpc                0x08005061   0xfe  Code  Gb  lpc.o [1]
 abort                   0x080077fd    0x6  Code  Gb  abort.o [3]
 attenuation             0x0800e5d4   0x14  Data  Gb  nb_celp.o [1]
-bits                    0x2000427c   0x24  Data  Gb  speexx.o [1]
+bits                    0x2000447c   0x24  Data  Gb  speexx.o [1]
 bw_lpc                  0x08004565   0x32  Code  Gb  filters.o [1]
 cdbk_nb                 0x0800d63c  0x280  Data  Gb  lsp_tables_nb.o [1]
 cdbk_nb_high1           0x0800dccc  0x140  Data  Gb  lsp_tables_nb.o [1]
@@ -913,7 +913,7 @@ compute_impulse_response
 compute_rms             0x080047f5   0x9a  Code  Gb  filters.o [1]
 compute_rms16           0x0800488f  0x15c  Code  Gb  filters.o [1]
 dispose_chunk           0x08002b09  0x4a0  Code  Lc  dlmalloc.o [3]
-enc_state               0x200042dc    0x4  Data  Gb  speexx.o [1]
+enc_state               0x200044dc    0x4  Data  Gb  speexx.o [1]
 exc_10_32_table         0x0800da4c  0x140  Data  Gb  exc_10_32_table.o [1]
 exc_gain_quant_scal1    0x0800e714    0x4  Data  Gb  nb_celp.o [1]
 exc_gain_quant_scal1_bound
@@ -923,17 +923,17 @@ exit                    0x0800e57f    0x4  Code  Gb  exit.o [3]
 filter_mem16            0x08005b75         Code  Gb  filters_cortexM3.o [1]
 fir_mem16               0x08005d65         Code  Gb  filters_cortexM3.o [1]
 gain_cdbk_lbr           0x0800df60   0x80  Data  Gb  gain_table_lbr.o [1]
-hUsbDeviceFS            0x20003388  0x224  Data  Gb  usb_device.o [1]
-hadc1                   0x2000424c   0x30  Data  Gb  main.o [1]
-hdma_adc1               0x200041dc   0x38  Data  Gb  main.o [1]
-hdma_usart3_tx          0x20004214   0x38  Data  Gb  main.o [1]
+hUsbDeviceFS            0x20003588  0x224  Data  Gb  usb_device.o [1]
+hadc1                   0x2000444c   0x30  Data  Gb  main.o [1]
+hdma_adc1               0x200043dc   0x38  Data  Gb  main.o [1]
+hdma_usart3_tx          0x20004414   0x38  Data  Gb  main.o [1]
 highpass                0x080045d9  0x130  Code  Gb  filters.o [1]
-hpcd_USB_FS             0x20002ce8  0x420  Data  Gb  usbd_conf.o [1]
-htim2                   0x20004164   0x3c  Data  Gb  main.o [1]
-htim3                   0x200041a0   0x3c  Data  Gb  main.o [1]
-huart3                  0x20004124   0x40  Data  Gb  main.o [1]
-idxIN                   0x200042f0    0x2  Data  Gb  wifi.o [1]
-idxOUT                  0x200042f2    0x2  Data  Gb  wifi.o [1]
+hpcd_USB_FS             0x20002ee8  0x420  Data  Gb  usbd_conf.o [1]
+htim2                   0x20004364   0x3c  Data  Gb  main.o [1]
+htim3                   0x200043a0   0x3c  Data  Gb  main.o [1]
+huart3                  0x20004324   0x40  Data  Gb  main.o [1]
+idxIN                   0x200044f0    0x2  Data  Gb  wifi.o [1]
+idxOUT                  0x200044f2    0x2  Data  Gb  wifi.o [1]
 iir_mem16               0x08005c9b         Code  Gb  filters_cortexM3.o [1]
 init_mparams            0x0800239d   0x32  Code  Lc  dlmalloc.o [3]
 init_top                0x080023cf   0x34  Code  Lc  dlmalloc.o [3]
@@ -949,7 +949,7 @@ lsp_to_lpc              0x08005679  0x39c  Code  Gb  lsp.o [1]
 lsp_unquant_lbr         0x0800d597   0x98  Code  Gb  quant_lsp.o [1]
 ltp_params_lbr          0x0800e69c    0xc  Data  Lc  modes.o [1]
 main                    0x08009f6d  0x118  Code  Gb  main.o [1]
-mparams                 0x200042a0   0x18  Data  Lc  dlmalloc.o [3]
+mparams                 0x200044a0   0x18  Data  Lc  dlmalloc.o [3]
 multicomb               0x08004c51  0x406  Code  Gb  filters.o [1]
 nb_decode               0x08001239  0xca6  Code  Gb  nb_celp.o [1]
 nb_decode_lost          0x08001045  0x1d6  Code  Lc  nb_celp.o [1]
@@ -963,7 +963,7 @@ nb_encoder_init         0x080001d3  0x17a  Code  Gb  nb_celp.o [1]
 nb_mode                 0x0800ded4   0x8c  Data  Lc  modes.o [1]
 nb_mode_query           0x080077ab   0x4e  Code  Gb  speex.o [1]
 nb_submode3             0x0800e33c   0x38  Data  Lc  modes.o [1]
-new_VAD_detect          0x200042f9    0x1  Data  Gb  speexx.o [1]
+new_VAD_detect          0x200044f9    0x1  Data  Gb  speexx.o [1]
 noise_codebook_quant    0x080076b9   0x58  Code  Gb  cb_search.o [1]
 normalize16             0x080049eb   0x44  Code  Gb  filters.o [1]
 ol_gain_table           0x0800dfe0   0x80  Data  Gb  nb_celp.o [1]
@@ -1035,13 +1035,13 @@ target_update           0x0800702d   0x2a  Code  Lc  cb_search.o [1]
 tmalloc_large           0x08002faf  0x380  Code  Lc  dlmalloc.o [3]
 tmalloc_small           0x0800332f  0x206  Code  Lc  dlmalloc.o [3]
 try_realloc_chunk       0x08003d51  0x306  Code  Lc  dlmalloc.o [3]
-uwTick                  0x200042e0    0x4  Data  Lc  stm32f1xx_hal.o [1]
-vbr                     0x200042d8    0x4  Data  Gb  speexx.o [1]
+uwTick                  0x200044e0    0x4  Data  Lc  stm32f1xx_hal.o [1]
+vbr                     0x200044d8    0x4  Data  Gb  speexx.o [1]
 vq_nbest                0x08007a79         Code  Gb  vq_cortexm3.o [1]
 wb_skip_table           0x0800e504   0x20  Data  Lc  nb_celp.o [1]
 
 
-[1] = D:\STM32\AudioWiFi\EWARM\AudioWiFi\Obj
+[1] = C:\AudioWiFi\EWARM\AudioWiFi\Obj
 [2] = command line
 [3] = dl7M_tlf.a
 [4] = m7M_tl.a
@@ -1050,7 +1050,7 @@ wb_skip_table           0x0800e504   0x20  Data  Lc  nb_celp.o [1]
 
   55 714 bytes of readonly  code memory
    4 112 bytes of readonly  data memory
-  17 145 bytes of readwrite data memory
+  17 657 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
